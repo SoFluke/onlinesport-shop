@@ -1,0 +1,127 @@
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background:linear-gradient(135deg,#0b006d, #00888d) ; 
+    color: #b7ffff; 
+} 
+header .logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+header nav ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 15px; 
+} 
+header nav ul li a { 
+    text-decoration: none; 
+    color: #1100ff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+} 
+header nav ul li a:hover { 
+    background-color: #555; 
+} 
+ 
+/* แบนเนอร์ */ 
+.banner { 
+    text-align: center; 
+    padding: 50px; 
+    background-color: #f4f4f4; 
+} 
+.banner h1 { 
+    font-size: 36px; 
+    margin-bottom: 15px; 
+} 
+.banner p { 
+    font-size: 18px; 
+    color: #666; 
+    margin-bottom: 20px; 
+} 
+.banner button { 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+} 
+.banner button:hover { 
+    background-color: #0056b3; 
+} 
+ 
+/* สินค้าแนะน า */ 
+.featured { 
+    padding: 40px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+} 
+.featured h2 { 
+    font-size: 28px; 
+    margin-bottom: 20px; 
+    color: #333; 
+} 
+.product-list { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+} 
+.product { 
+    background:linear-gradient(135deg,#0b006d, #00888d) ;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 250px; 
+    text-align: center; 
+    transition: box-shadow 0.3s, transform 0.3s; 
+} 
+.product img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+} 
+.product h3 { 
+    font-size: 18px; 
+    margin: 10px 0; 
+    color: #ffffff; 
+} 
+.product p { 
+    font-size: 14px; 
+    color: #ffffff; 
+    margin: 5px 0; 
+} 
+.product .price { 
+    font-size: 20px; 
+    color: #0400e6; 
+    margin: 10px 0; 
+    font-weight: bold; 
+} 
+.product button { 
+    padding: 10px 20px; 
+    background-color: #fbff00; 
+    color: #000000; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+} 
+.product button:hover { 
+    background-color: #0056b3; 
+} 
+.product:hover { 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-5px); 
+} 
+ 
+/* ส่วนท้าย */ 
+footer { 
+    text-align: center; 
+    padding: 15px; 
+    background:linear-gradient(135deg,#0b006d, #00888d) ;
+    color: #ffffff; 
+}
